@@ -45,7 +45,6 @@ function findCourse(courseList) {
         courseList.push({code: codeinput, name: null});
         console.log("Course code added successfully");
     }
-
 }
 
 findCourse()
