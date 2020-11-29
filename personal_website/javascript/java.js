@@ -8,9 +8,9 @@ let courseList = [
 var codeinput = prompt("Enter 4-digit course code: ");
 
 
-while (!(codeinput.length == 4)) {
+while ((codeinput.length !== 4) || isNaN(codeinput) === true) {
+   prompt("Input is invalid") 
    var codeinput = prompt("Enter 4-digit course code: ");
-
 }
 
 
