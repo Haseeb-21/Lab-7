@@ -1,0 +1,28 @@
+body {
+    background-color:beige;
+    text-align: center;
+    margin: 0;
+  }
+
+aside {
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    border: maroon;
+}
+
+.leftalign {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .center {
+        text-align: left; 
+    }
+}
